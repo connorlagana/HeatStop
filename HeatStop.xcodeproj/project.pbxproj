@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		433AA2CB22E38B0500CBE37C /* EditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433AA2CA22E38B0500CBE37C /* EditController.swift */; };
+		433AA2CE22E3A55800CBE37C /* HeatStopModels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 433AA2CC22E3A55800CBE37C /* HeatStopModels.xcdatamodeld */; };
 		434B0CBB22E15F9900C5C900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B0CBA22E15F9900C5C900 /* AppDelegate.swift */; };
-		434B0CBD22E15F9900C5C900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B0CBC22E15F9900C5C900 /* ViewController.swift */; };
+		434B0CBD22E15F9900C5C900 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B0CBC22E15F9900C5C900 /* TimerController.swift */; };
 		434B0CC022E15F9900C5C900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434B0CBE22E15F9900C5C900 /* Main.storyboard */; };
 		434B0CC222E15F9B00C5C900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434B0CC122E15F9B00C5C900 /* Assets.xcassets */; };
 		434B0CC522E15F9B00C5C900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434B0CC322E15F9B00C5C900 /* LaunchScreen.storyboard */; };
+		434B0CCD22E2328100C5C900 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B0CCC22E2328100C5C900 /* HomeController.swift */; };
+		434B0CD022E23B0900C5C900 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B0CCF22E23B0900C5C900 /* Food.swift */; };
+		434B0CD222E24D0F00C5C900 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B0CD122E24D0F00C5C900 /* ColorScheme.swift */; };
+		434B0CD422E24FDC00C5C900 /* CreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B0CD322E24FDC00C5C900 /* CreateController.swift */; };
+		4350A68222E6371B00F99D2E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350A68122E6371B00F99D2E /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		433AA2CA22E38B0500CBE37C /* EditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditController.swift; sourceTree = "<group>"; };
+		433AA2CD22E3A55800CBE37C /* HeatStopModels.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeatStopModels.xcdatamodel; sourceTree = "<group>"; };
 		434B0CB722E15F9900C5C900 /* HeatStop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeatStop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		434B0CBA22E15F9900C5C900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		434B0CBC22E15F9900C5C900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		434B0CBC22E15F9900C5C900 /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
 		434B0CBF22E15F9900C5C900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		434B0CC122E15F9B00C5C900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		434B0CC422E15F9B00C5C900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		434B0CC622E15F9B00C5C900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434B0CCC22E2328100C5C900 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		434B0CCF22E23B0900C5C900 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		434B0CD122E24D0F00C5C900 /* ColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
+		434B0CD322E24FDC00C5C900 /* CreateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateController.swift; sourceTree = "<group>"; };
+		4350A68122E6371B00F99D2E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +69,28 @@
 			isa = PBXGroup;
 			children = (
 				434B0CBA22E15F9900C5C900 /* AppDelegate.swift */,
-				434B0CBC22E15F9900C5C900 /* ViewController.swift */,
-				434B0CBE22E15F9900C5C900 /* Main.storyboard */,
+				434B0CD122E24D0F00C5C900 /* ColorScheme.swift */,
+				434B0CBC22E15F9900C5C900 /* TimerController.swift */,
+				434B0CCF22E23B0900C5C900 /* Food.swift */,
+				434B0CD322E24FDC00C5C900 /* CreateController.swift */,
+				4350A68122E6371B00F99D2E /* CoreDataManager.swift */,
+				434B0CCE22E232C400C5C900 /* Home */,
+				433AA2CC22E3A55800CBE37C /* HeatStopModels.xcdatamodeld */,
 				434B0CC122E15F9B00C5C900 /* Assets.xcassets */,
 				434B0CC322E15F9B00C5C900 /* LaunchScreen.storyboard */,
+				434B0CBE22E15F9900C5C900 /* Main.storyboard */,
 				434B0CC622E15F9B00C5C900 /* Info.plist */,
 			);
 			path = HeatStop;
+			sourceTree = "<group>";
+		};
+		434B0CCE22E232C400C5C900 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				434B0CCC22E2328100C5C900 /* HomeController.swift */,
+				433AA2CA22E38B0500CBE37C /* EditController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434B0CBD22E15F9900C5C900 /* ViewController.swift in Sources */,
+				433AA2CB22E38B0500CBE37C /* EditController.swift in Sources */,
+				434B0CCD22E2328100C5C900 /* HomeController.swift in Sources */,
+				434B0CD422E24FDC00C5C900 /* CreateController.swift in Sources */,
+				434B0CD222E24D0F00C5C900 /* ColorScheme.swift in Sources */,
+				434B0CD022E23B0900C5C900 /* Food.swift in Sources */,
+				434B0CBD22E15F9900C5C900 /* TimerController.swift in Sources */,
+				4350A68222E6371B00F99D2E /* CoreDataManager.swift in Sources */,
 				434B0CBB22E15F9900C5C900 /* AppDelegate.swift in Sources */,
+				433AA2CE22E3A55800CBE37C /* HeatStopModels.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +372,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		433AA2CC22E3A55800CBE37C /* HeatStopModels.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				433AA2CD22E3A55800CBE37C /* HeatStopModels.xcdatamodel */,
+			);
+			currentVersion = 433AA2CD22E3A55800CBE37C /* HeatStopModels.xcdatamodel */;
+			path = HeatStopModels.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 434B0CAF22E15F9900C5C900 /* Project object */;
 }
